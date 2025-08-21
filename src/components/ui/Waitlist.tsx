@@ -1,4 +1,4 @@
- "use client";
+"use client";
 
 import React, { useState, Fragment, useEffect } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
@@ -27,7 +27,6 @@ export default function Waitlist() {
         e.preventDefault();
         setError('');
 
-        // Formspree URL here
         const response = await fetch('https://formspree.io/f/mvgqjkyo', {
             method: 'POST',
             headers: {
@@ -70,8 +69,9 @@ export default function Waitlist() {
                             <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-gray-900 p-6 text-left align-middle shadow-xl transition-all border border-white/10">
                                 {submitted ? (
                                     <div className="text-center">
-                                        <Dialog.Title as="h3" className="text-lg font-heading font-medium leading-6 text-white">You're on the list! 🎉</Dialog.Title>
-                                        <p className="mt-2 text-sm text-gray-400">We'll notify you the moment Tracey is available. Thanks for your support!</p>
+                                        {/* FIXED APOSTROPHES HERE */}
+                                        <Dialog.Title as="h3" className="text-lg font-heading font-medium leading-6 text-white">You&apos;re on the list! 🎉</Dialog.Title>
+                                        <p className="mt-2 text-sm text-gray-400">We&apos;ll notify you the moment Tracey is available. Thanks for your support!</p>
                                         <div className="mt-4">
                                             <Button variant="secondary" onClick={closeModal}>Close</Button>
                                         </div>
