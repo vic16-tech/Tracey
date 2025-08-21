@@ -23,11 +23,11 @@ export const metadata = {
     openGraph: {
         title: 'Tracey: Your Device, Always in Your Control',
         description: 'The ultimate anti-theft and location tracking solution for your smartphone.',
-        url: 'https://your-website-url.com',
+        url: 'https://tracey-app.vercel.app',
         siteName: 'Tracey App',
         images: [
             {
-                url: 'https://your-website-url.com/og-image.png',
+                url: 'https://tracey-app.vercel.app/og-image.png',
                 width: 1200,
                 height: 630,
             },
@@ -40,7 +40,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: 'Tracey: Your Device, Always in Your Control',
         description: 'The ultimate anti-theft and location tracking solution for your smartphone.',
-        images: ['https://your-website-url.com/og-image.png'],
+        images: ['https://tracey-app.vercel.app/og-image.png'],
     },
 };
 
