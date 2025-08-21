@@ -23,7 +23,7 @@ export const metadata = {
     openGraph: {
         title: 'Tracey: Your Device, Always in Your Control',
         description: 'The ultimate anti-theft and location tracking solution for your smartphone.',
-        url: 'https://tracey-app.vercel.app',
+        url: 'https://tracey-app.vercel.app/og-image.png',
         siteName: 'Tracey App',
         images: [
             {
