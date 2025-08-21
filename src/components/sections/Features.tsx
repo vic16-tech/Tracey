@@ -22,15 +22,16 @@ const features = [
 
 export default function Features() {
     return (
-        <section id='features' className="  bg-gray-900 py-24 sm:py-32">
+        <section id='features' className="bg-gray-900 py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <AnimateOnScroll className="mx-auto max-w-2xl lg:text-center">
                     <h2 className="text-base font-semibold leading-7 text-blue-400">Peace of Mind</h2>
                     <p className="font-heading mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
                         Everything you need for total device security
                     </p>
+                    {/* APOSTROPHE FIXED IN THIS PARAGRAPH */}
                     <p className="mt-6 text-lg leading-8 text-gray-400">
-                        Tracey is packed with powerful features designed to give you ultimate control and protect what's most important.
+                        Tracey is packed with powerful features designed to give you ultimate control and protect what&apos;s most important.
                     </p>
                 </AnimateOnScroll>
 
